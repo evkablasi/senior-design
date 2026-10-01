@@ -4,12 +4,13 @@ Evka Blasi
 ### Summary
 Kent Beck, the father of Test-Driven Development, insists that he merely "rediscovered" this software development methodology, though he alone can be credited for defining a formal name and framework. Just as the name implies, Test-Driven Development guides developers to define goals and expectations, write tests that successful (i.e. meeting the expectations) code would pass, then writing the actual code [^1]. This methodology was so revolutionary at the time Beck began writing about it because it is essentially the reverse workflow of every other software development strategy. Right away, there are a couple things I notice that make me lean towards the philosophy of Test-Driven Development. First off, it forces developers to embrace failure as a necessity of the development process, which I am strongly in support of. I also appreciate how writing the tests first dictates more specifically what the code needs to accomplish, which will cut down on excessive code and prevent bias towards your code when writing tests. 
 ### Overview
-The process of Test-Driven Development can be broken into three main steps, referred to as Red Green Refactor [^2].
+The process of Test-Driven Development is generally interpreted into three main steps, referred to as Red Green Refactor [^2].
 1. Red
-   
-3. Green
-   
-5. Refactor
+   - Once the expected behavior of the code is decided, the developer begins by writing a test based on variables and functions etc. that don't exist yet but will be included in the written code. The tests are broken down so that each behavior can be written and confirmed individually, in keeping with the principles of the methodology. This step is named "Red" because, obviously, the test will fail. 
+1. Green
+   - The next step is to write the most minimal code possible to pass the one test you are focused on. Writing in small bits like this ensures that the developer does not stray from the flow of Test-Driven Development. Continue to rework the code until the test passes, thus this being the "Green" step.
+1. Refactor
+   - Finally, "Refactor" or rework and expand your tests to reflect more advanced behavior and every extenuating circumstance that the code must be able to handle. This step is the connection back to the beginning of the cycle
    
 ### Examples
 ## Kanban
