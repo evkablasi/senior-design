@@ -6,11 +6,16 @@ Kent Beck, the father of Test-Driven Development, insists that he merely "redisc
 ### Overview
 The process of Test-Driven Development is generally interpreted into three main steps, referred to as Red Green Refactor [^2].
 1. Red
-   - Once the expected behavior of the code is decided, the developer begins by writing a test based on variables and functions etc. that don't exist yet but will be included in the written code. The tests are broken down so that each behavior can be written and confirmed individually, in keeping with the principles of the methodology. This step is named "Red" because, obviously, the test will fail. 
+   
+   The developer begins by writing a test based on variables and functions etc. that don't exist yet but will be included in the written code. The tests are broken down so that each expected behavior can be written and confirmed individually, in keeping with the principles of the methodology. This step is named "Red" because, obviously, the test will fail. 
 1. Green
-   - The next step is to write the most minimal code possible to pass the one test you are focused on. Writing in small bits like this ensures that the developer does not stray from the flow of Test-Driven Development. Continue to rework the code until the test passes, thus this being the "Green" step.
+
+   The next step is to write the most minimal code possible to pass the one test you are focused on. Writing in small bits like this ensures that the developer does not stray from the flow of Test-Driven Development. Continue to rework the code until the test passes, thus this being the "Green" step.
 1. Refactor
-   - Finally, "Refactor" or rework and expand your tests to reflect more advanced behavior and every extenuating circumstance that the code must be able to handle. This step is the connection back to the beginning of the cycle
+
+   Finally, "Refactor" or rework code to be more elegant and expand tests to reflect more advanced behavior and every extenuating circumstance that the code should be able to handle. This step is the connection back to the beginning of the whole cycle.
+
+In his article, [Canon TDD](https://newsletter.kentbeck.com/p/canon-tdd), Beck goes into a bit more detail and clarifies some common misunderstandings or misuses of Test-Driven Development. He adds the first step of creating a "Test List", which covers all expected behaviors, outputs, errors, etc. from the code. He also stresses the importance of tackling each test on the list at a time and ensuring as the developer moves through the list to ensure the previous tests are still completely successful. Lastly, I quite enjoy Beck's bit of wisdom on how to split the "Green"/"Make it Pass" step from the "Refactor" step: "Make it run, *then* make it right".
    
 ### Examples
 ## Kanban
