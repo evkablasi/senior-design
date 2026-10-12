@@ -18,16 +18,17 @@ The process of Test-Driven Development is generally interpreted into three main 
 In his article, [Canon TDD](https://newsletter.kentbeck.com/p/canon-tdd), Beck goes into a bit more detail and clarifies some common misunderstandings or misuses of Test-Driven Development. He adds the first step of creating a "Test List", which covers all expected behaviors, outputs, errors, etc. from the code. He also stresses the importance of tackling each test on the list at a time and ensuring as the developer moves through the list to ensure the previous tests are still completely successful. Lastly, I quite enjoy Beck's bit of wisdom on how to split the "Green"/"Make it Pass" step from the "Refactor" step: "Make it run, *then* make it right".
    
 ### Examples
-## Kanban
-Kanban was developed as a part of the Toyota Production System in the 1940's and is widely used today as a methodology of Agile Development.
+## Kanban 
 ### Summary
+Kanban was developed as a part of the Toyota Production System in the 1940's and is widely used today as a methodology of Agile Development. At the core of the Kanban method is the Kanban Board, which is a visual display of every task on the team's docket, no matter what stage of development the task is in, from waiting on deck to being completed. The breakdown of categories on the board is flexible to the developers' needs, with the exception of the essential "Work in Progress," around which the workflow is centered [^3]. I believe the visual aspect of the Kanban methodology would help us stay on track, considering the length of our project, and would also promote collaboration as we could see what our teammates are working on or could be stuck on. 
 ### Overview
+As mentioned before, the critical component of Kanban-style development is the Kanban Board, which was originally a physical whiteboard, but digital options have been created with the expansion of the technique. The board is split up into as many columns as the developers decide they need, though the essential steps can be broken into just five: To Do, Work in Progress, Testing, Complete. At the beginning of the project, the To Do stage contains every identifiable step from the briefing or description, and new tasks can be added as they arise. Work in Progress is for each step that is currently being worked on, and the fundamental goal of Kanban is to limit the number of steps in the Work in Progress column. The Testing column is for validating that the piece works as intended and works with the rest of the project. Once thorough testing is done, the step can be moved to the Complete column. Each task is written on a card and moved through the flow, creating a living document of progress.
 ### Examples
 ## Comparison
 ## Conclusion
 
 [^1]: https://framework.scaledagile.com/test-driven-development/
 [^2]: https://www.drizz.dev/post/tdd-vs-bdd?_gl=1*nebr69*_gcl_au*MTg4NDU0OTk5OS4xNzkwODEwODY5*_ga*NDk0NTExMDY5LjE3OTA4MTA4Njk.*_ga_DRVCD5PR3T*czE3OTA4MTA4NjgkbzEkZzAkdDE3OTA4MTA4NjgkajYwJGwwJGgyNzI1ODE4NDg.
-[^3}:
+[^3}: https://www.geeksforgeeks.org/software-engineering/what-is-kanban/ 
 [^4]:
 [^5]:
