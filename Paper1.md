@@ -28,7 +28,7 @@ As mentioned before, the critical component of Kanban-style development is the K
 Where Test-Driven Development focuses on the individual developer's process, though it may impact the rest of the team's work indirectly, the Kanban approach dictates how the team should operate together but does not address the developers' coding process or style. They both have a workflow broken down into multiple phases, TDD being Red, Green, Refactor, and Kanban being the stages of progress, but they differ in how to navigate the flow. Test-Driven Development works in a cycle, while Kanban has an end and a beginning and only progresses forwards through the flow. It seems that a good option would be to form a hybrid of the two, letting one dictate our coding style while we allow the other to inform our team dynamic. However, I do think there would be some clash because of the cyclical nature of TDD and the push in Kanban to swiftly move things out of the Work in Progress stage. Test-Driven Development is definitely a style that we should try to integrate as a group, but I do believe we should also identify a software methodology that will give more guidance on group roles and how the team should operate.
 
 [^1]: https://framework.scaledagile.com/test-driven-development/
-[^2]: https://www.drizz.dev/post/tdd-vs-bdd?_gl=1*nebr69*_gcl_au*MTg4NDU0OTk5OS4xNzkwODEwODY5*_ga*NDk0NTExMDY5LjE3OTA4MTA4Njk.*_ga_DRVCD5PR3T*czE3OTA4MTA4NjgkbzEkZzAkdDE3OTA4MTA4NjgkajYwJGwwJGgyNzI1ODE4NDg.
+[^2]: https://www.drizz.dev/post/tdd-vs-bdd?_gl=1*nebr69*_gcl_au*MTg4NDU0OTk5OS4xNzkwODEwODY5*_ga*NDk0NTExMDY5LjE3OTA4MTA4Njk.*_ga_DRVCD5PR3T*czE3OTA4MTA4NjgkbzEkZzAkdDE3OTA4MTA4NjgkajYwJGwwJGgyNzI1ODE4NDg
 [^3}: https://www.geeksforgeeks.org/software-engineering/what-is-kanban/ 
 [^4]:
 [^5]:
