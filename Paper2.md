@@ -14,9 +14,12 @@ Most of the technical safeguards, namely access control, authentication, and tra
 
 Administrative safeguards overlap a bit with technical and physical regarding access management and security management, but the one that stands out to me the most is security awareness and training, which calls for education of all employees on security policies and procedures. It occurs to me that we may need more information from SecurKart on how protected health information exists in their network and how our work could possibly impact it, which, depending on the extent, could be pertinent to ensuring that we respect HIPAA regulations during our developing. 
 
-While the United States Department of Labor outlines a list of 12 best practices for handling data in the context of ERISA regulations, the following three seem the most relevant to our purposes. 
 
+While the Employee Benefits Security Administration has outlined a list of 12 best practices for handling data in the context of ERISA regulations, the following three seem the most relevant to our purposes. 
 
+First is having a formal, well documented cybersecurity program, a key aspect of which is to pre-establish strong policies and continue to add to them as incidents occur. However, the creation of the rules themselves is nothing without proper explanation of how to follow them and what is at stake. During our time so far working with the Securkart team, it has been brought up numerous times how our work could interfere with their internals if we are not careful about working only in our test space ("Terms are effectively explained to users": check!). I believe all of our code will also be thoroughly reviewed by various members of the company before it is officially committed to interact with their existing work ("Approval by senior leadership": check!). 
+
+Second is having strong access control procedures, whose two main components are authorization and authentication. 
 
 ## Broader Implications
 **Will consider global, economic, environmental, societal contexts
